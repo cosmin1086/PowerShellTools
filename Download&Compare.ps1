@@ -1,7 +1,7 @@
-﻿wget "https://...etl.jar" -outfile "C:\ETL\downloaded\etl.jar"
-if ((Get-FileHash "C:\ETL\downloaded\etl.jar").hash  -ne (Get-FileHash "C:\ETL\etl.jar").hash)
+﻿wget "https://...file.type" -outfile "C:\temp\downloaded\file.type"
+if ((Get-FileHash "C:\temp\downloaded\file.type").hash  -ne (Get-FileHash "C:\temp\file.type").hash)
     {
-    Copy-Item "c:\ETL\downloaded\etl.jar" "c:\ETL\etl.jar"
+    Copy-Item "c:\temp\downloaded\file.type" "c:\temp\file.type"
     }
 else {
     exit
